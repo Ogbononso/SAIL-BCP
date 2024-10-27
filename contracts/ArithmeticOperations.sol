@@ -3,7 +3,7 @@ pragma solidity ^0.8.26;
 
 contract ArithmeticOperations{
     uint public Addition;
-    uint public Subtraction;
+    int public Subtraction;
     uint public Multiplication;
     uint public Division;
 
@@ -12,7 +12,7 @@ contract ArithmeticOperations{
         Addition = a + b;
         return(Addition);
     }
-    function subtract(uint a, uint b) public returns(uint){
+    function subtract(int a, int b) public returns(int){
         // Subtracts a from b
         Subtraction = a - b;
         return(Subtraction);
@@ -24,6 +24,7 @@ contract ArithmeticOperations{
     }
     function divide(uint a, uint b) public returns(uint){
         // Divides a by b
+        require(b != 0, "b should not equal 0");
         Division = a / b;
         return(Division);
     }

@@ -49,9 +49,9 @@
 				"name": "Subtraction",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -132,22 +132,22 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "a",
-						"type": "uint256"
+						"type": "int256"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "b",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"name": "subtract",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "int256",
 						"name": "",
-						"type": "uint256"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -182,11 +182,11 @@
 	},
 	"sources": {
 		"contracts/ArithmeticOperations.sol": {
-			"keccak256": "0x2c6b3a5aaa47f254ea0ff0734e1c8201654a995d609af4b4b6943742c2ff9b71",
+			"keccak256": "0xe3073ac2d6017ea2dfb435ee653e22eb25b1f2391d692c795bdf1c1c275f29d5",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e4313676a2d3e08a93ce2bf68752a299c2932fffcb49b7ae753a939ba2a38275",
-				"dweb:/ipfs/QmW7hMKBZvcdnVWRwWvUGHX3JChMmocwS6fRyDX7dHox2v"
+				"bzz-raw://9213036d38d68fd0fb0cf0cf535816f13bf8c8d68b3a53e9dd2bd2be2ccba712",
+				"dweb:/ipfs/QmYM7gHd5h8xuc1t6vV2fsmRKxXRcsH5SFYavQqbc8MQeK"
 			]
 		}
 	},

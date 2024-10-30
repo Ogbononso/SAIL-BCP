@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Number",
+						"type": "uint256"
+					}
+				],
+				"name": "checkEvenOdd",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EvenOddChecker.sol": "EvenOddChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/EvenOddChecker.sol": {
+			"keccak256": "0x3193c8e52b323ad9ead0a72130c67fb4fd84ea7f3668ca8baa1a915d14fe74f9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6bc060020c10381894790720edda46e0a185e2473885887d92d982dc1f544682",
+				"dweb:/ipfs/QmdKpt4wpi7nDWP8JSYZzn8r2nqPsMme5VRenp2fZxLrPb"
+			]
+		}
+	},
+	"version": 1
+}

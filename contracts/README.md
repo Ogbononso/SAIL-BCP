@@ -1,3 +1,7 @@
+Pardon the nature of my commit messages, i messed it up somehow. Even the projects are not organised as i want it to be.
+i have realised my mistakes and i will make my new repos much better and organised.
+
+
 ArithmeticOperations Contract
 
 This Solidity contract provides basic arithmetic operations: 
